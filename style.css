@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "PressStart";
+    font-style: normal;
+    font-weight: 400;
+    src: local("PressStart"),
+         url("./fonts/PressStart2P-Regular.woff") format("woff"),
+         url("./fonts/PressStart2P-Regular.ttf") format("ttf"),
+         url("./fonts/PressStart2P-Regular.eot") format("eot");
+  }
+
+body{
+    background-image: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    font-family: 'PressStart', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    padding-bottom: 50px;
+    margin: 0 auto;
+    max-width: 480px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myPhoto{
+    overflow: hidden;
+    object-fit: cover;
+    height: 98px;
+    width: 98px;
+    border-radius: 50%;
+}
+
+.title{
+    color: #fff;
+}
+
+.links img{
+    margin-right: 20px;
+}
+
+.links a{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
