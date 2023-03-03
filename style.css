@@ -3,13 +3,13 @@
     font-style: normal;
     font-weight: 400;
     src: local("PressStart"),
-         url("./fonts/PressStart2P-Regular.woff") format("woff"),
-         url("./fonts/PressStart2P-Regular.ttf") format("ttf"),
-         url("./fonts/PressStart2P-Regular.eot") format("eot");
-  }
+        url("./fonts/PressStart2P-Regular.woff") format("woff"),
+        url("./fonts/PressStart2P-Regular.ttf") format("ttf"),
+        url("./fonts/PressStart2P-Regular.eot") format("eot");
+}
 
 body{
-    background-image: url(./img/background.jpg);
+    background-image: url(./img/background1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
