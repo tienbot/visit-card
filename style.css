@@ -19,9 +19,11 @@ body{
 }
 
 .container{
+    padding: 20px;
     padding-bottom: 50px;
     margin: 0 auto;
     max-width: 480px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,6 +41,7 @@ body{
 
 .title{
     color: #fff;
+    text-align: center;
 }
 
 .links{
@@ -51,7 +54,6 @@ body{
 
 .links li{
     background-color: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(10px) saturate(80%) contrast(190%);
     border-radius: 30px;
     margin: 20px 0;
 }
@@ -67,4 +69,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media only screen and (max-width: 375px) {
+    .title{
+        font-size: 20px;
+    }
 }
